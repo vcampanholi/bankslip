@@ -1,0 +1,1 @@
+package com.vandersoncamp.bankslip.util;import javax.enterprise.inject.Produces;import javax.persistence.EntityManager;import javax.persistence.PersistenceContext;public class PersistenceManager {    @Produces    @PersistenceContext(unitName = "bankslipPU")    private EntityManager em;    public EntityManager getEntityManager() {        return em;    }}

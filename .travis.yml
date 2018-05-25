@@ -1,1 +1,1 @@
-language: java
+language: javainstall: truescript: mvn clean package -DskipTests=false

@@ -1,0 +1,1 @@
+import org.junit.jupiter.api.Test;public class BoletoTest {    @Test    void createTest() {        System.out.println("Executa create test JUnit5");    }    @Test    void updateTest() {        System.out.println("Executa update test JUnit5");    }    @Test    void deleteTest() {        System.out.println("Executa delete test JUnit5");    }}

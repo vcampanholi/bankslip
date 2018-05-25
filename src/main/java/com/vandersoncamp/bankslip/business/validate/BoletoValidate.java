@@ -1,0 +1,1 @@
+package com.vandersoncamp.bankslip.business.validate;import com.vandersoncamp.bankslip.model.Boleto;import com.vandersoncamp.bankslip.util.BusinessException;public class BoletoValidate {    public void validate(Boleto boleto) {        if (!boleto.getCustomer().equals("")) {            throw new BusinessException("Informaçao errada do cliente");        }    }}

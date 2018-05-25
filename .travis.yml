@@ -1,1 +1,1 @@
-language:      java
+language: javainstall: mvn install -DskipTests=false -Dmaven.javadoc.skip=true -B -V

@@ -1,0 +1,1 @@
+import org.junit.jupiter.api.Test;public class JUnitTest {    @Test    void justAnExample() {        System.out.println("Teste de execução JUnit 5");    }}

@@ -1,1 +1,1 @@
-language: javascript:  - mvn install -DskipTests  - bash <(curl -s https://codecov.io/bash)
+language: java

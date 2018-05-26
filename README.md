@@ -1,7 +1,7 @@
 # Bankslip
 
-[![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/vandersozc/Bankslip/blob/master/LICENSE)
-[![Build Status](https://img.shields.io/travis/vandersozc/Bankslip/master.svg?style=flat)](https://travis-ci.org/vandersozc/Bankslip)
+[![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/vandersozc/Bankslip/blob/master/LICENCA)
+[![Build Status](https://travis-ci.com/vandersozc/Bankslip.svg?branch=master)](https://travis-ci.com/vandersozc/Bankslip)
 [![GitHub forks](https://img.shields.io/github/forks/vandersozc/Bankslip.svg)](https://github.com/vandersozc/Bankslip/network)
 [![GitHub stars](https://img.shields.io/github/stars/vandersozc/Bankslip.svg)](https://github.com/vandersozc/Bankslip/stargazers)
 [![GitHub issues](https://img.shields.io/github/issues/vandersozc/Bankslip.svg)](https://github.com/vandersozc/Bankslip/issues)
@@ -21,16 +21,14 @@ Serviço de API Rest para geração de boletos. Pode ser consumido por um módul
 
 ## Instalação
 
-Este projeto utiliza [Maven](https://maven.apache.org/) para build e gerenciamento das dependências e foi construído utilizando a stack do [WildFly Swarm](http://wildfly-swarm.io/)
-Executar o build através da linha de comando na pasta raiz do projeto:
+Este projeto utiliza [Maven](https://maven.apache.org/) para build e gerenciamento das dependências e foi construído utilizando a stack do [WildFly Swarm](http://wildfly-swarm.io/). Executar o build através da linha de comando na pasta raiz do projeto:
 ```
 mvn clean wildfly-swarm:run
 ```
 
 ## Testes e Cobertura
 
-Este projeto utiliza [JUnit 5](https://junit.org/junit5/)
-Você pode executar os testes a qualquer momento. Tudo o que você precisa fazer é executar a linha de comando na pasta raiz do projeto:
+Este projeto utiliza [JUnit 5](https://junit.org/junit5/) para testes unitários e de integração. Você pode executar os testes a qualquer momento. Tudo o que você precisa fazer é executar a linha de comando na pasta raiz do projeto:
 ```
 mvn clean test
 ```
@@ -99,5 +97,5 @@ PUT: http://localhost:8080/rest/bankslips/{id}
 }
 ```
 
-## License
+## Licença
 Este projeto está licenciado sob os termos da licença do MIT. Veja o arquivo LICENÇA.

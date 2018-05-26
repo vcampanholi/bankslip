@@ -16,7 +16,7 @@
 
 ## Projeto
 
-Serviço de API Rest para geração de boletos. Pode ser consumido por um módulo de um sistema, onde é possível gerar um boleto, pagar um boleto, cancelar um boleto e calcular os juros conforme a data de vencimento
+Serviço de API Rest para geração de boletos. Pode ser consumido por um módulo de um sistema, onde é possível gerar um boleto, pagar um boleto, cancelar um boleto e calcular os juros conforme a data de vencimento.
 
 
 ## Instalação

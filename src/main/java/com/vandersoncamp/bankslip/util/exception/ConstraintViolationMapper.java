@@ -1,4 +1,4 @@
-package com.vandersoncamp.bankslip.util.Exception;
+package com.vandersoncamp.bankslip.util.exception;
 
 import javax.validation.ConstraintViolation;
 import javax.validation.ConstraintViolationException;

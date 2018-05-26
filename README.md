@@ -5,6 +5,14 @@
 [![GitHub forks](https://img.shields.io/github/forks/vandersozc/Bankslip.svg)](https://github.com/vandersozc/Bankslip/network)
 [![GitHub stars](https://img.shields.io/github/stars/vandersozc/Bankslip.svg)](https://github.com/vandersozc/Bankslip/stargazers)
 <!--[![Codecov coverage](https://img.shields.io/codecov/c/github/vandersozc/Bankslip.svg)](https://codecov.io/gh/vandersozc/Bankslip)-->
+[![SonarQube Coverage](https://img.shields.io/sonar/http/sonar.petalslink.com/org.ow2.petals%3Apetals-se-ase/coverage.svg)](https://sonarcloud.io/dashboard?id=com.vandersoncamp%3Abankslip)
+
+
+
+
+
+
+
 
 -------
 <p align="center">

@@ -36,7 +36,6 @@
                 <groupId>org.wildfly.swarm</groupId>
                 <artifactId>wildfly-swarm-plugin</artifactId>
                 <version>${version.wildfly.swarm}</version>
-
                 <executions>
                     <execution>
                         <goals>
@@ -44,6 +43,7 @@
                         </goals>
                     </execution>
                 </executions>
+
             </plugin>
 
             <plugin>
@@ -107,12 +107,6 @@
             <artifactId>jackson-jaxrs-json-provider</artifactId>
             <version>2.3.0</version>
             <scope>provided</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>com.fasterxml.jackson.datatype</groupId>
-            <artifactId>jackson-datatype-jsr310</artifactId>
-            <version>2.4.1</version>
         </dependency>
 
         <dependency>

@@ -1,4 +1,4 @@
-package com.vandersoncamp.bankslip.resource.rest;
+package com.vandersoncamp.bankslip.util.Exception;
 
 import javax.persistence.EntityNotFoundException;
 import javax.ws.rs.core.Response;

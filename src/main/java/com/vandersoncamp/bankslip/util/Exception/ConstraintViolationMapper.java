@@ -1,4 +1,4 @@
-package com.vandersoncamp.bankslip.resource.rest;
+package com.vandersoncamp.bankslip.util.Exception;
 
 import javax.validation.ConstraintViolation;
 import javax.validation.ConstraintViolationException;

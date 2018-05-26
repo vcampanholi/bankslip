@@ -1,1 +1,14 @@
-language: javaafter_success:  - "mvn coveralls:report org.jacoco:jacoco-maven-plugin:prepare-agent sonar:sonar -Dsonar.host.url=$SONAR_HOST_URL -Dsonar.organization=$SONAR_ORG -Dsonar.login=$SONAR_TOKEN"install:  - "mvn test-compile -DskipTests=false -Dmaven.javadoc.skip=true -B -V"jdk:  - openjdk8language: javanotifications:  email:    - vando.zc@gmail.comscript:  - "mvn test jacoco:report"
+language: java
+
+after_success:
+  - "mvn coveralls:report org.jacoco:jacoco-maven-plugin:prepare-agent sonar:sonar -Dsonar.host.url=$SONAR_HOST_URL -Dsonar.organization=$SONAR_ORG -Dsonar.login=$SONAR_TOKEN"
+install:
+  - "mvn test-compile -DskipTests=true -Dmaven.javadoc.skip=true -B -V"
+jdk:
+  - openjdk8
+language: java
+notifications:
+  email:
+    - vando.zc@gmail.com
+script:
+  - "mvn test jacoco:report"

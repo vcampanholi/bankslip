@@ -4,7 +4,7 @@
 [![Build Status](https://travis-ci.com/vandersozc/Bankslip.svg?branch=master)](https://travis-ci.com/vandersozc/Bankslip)
 [![GitHub forks](https://img.shields.io/github/forks/vandersozc/Bankslip.svg)](https://github.com/vandersozc/Bankslip/network)
 [![GitHub stars](https://img.shields.io/github/stars/vandersozc/Bankslip.svg)](https://github.com/vandersozc/Bankslip/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues/vandersozc/Bankslip.svg)](https://github.com/vandersozc/Bankslip/issues)
+[![Codecov coverage](https://img.shields.io/codecov/c/github/vandersozc/Bankslip.svg)](https://codecov.io/gh/vandersozc/Bankslip)
 
 -------
 <p align="center">

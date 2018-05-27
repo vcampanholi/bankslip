@@ -8,7 +8,12 @@
 
 -------
 <p align="center">
-    <a href="#projeto">Projeto</a>
+    <a href="#projeto">Projeto</a>&nbsp;
+	<a href="#instalação">Instalação</a>&nbsp;
+	<a href="#testes-e-cobertura">Testes e Cobertura</a>&nbsp;
+	<a href="#build-e-análise">Build e Análise</a>&nbsp;
+	<a href="#endPoints">EndPoints</a>&nbsp;
+	<a href="#licença">Licença</a>
 </p>
 -------
 
@@ -32,7 +37,7 @@ mvn clean test
 ```
 
 ## Build e Análise
-O build remoto do projeto pode ser visualizado com: [Travis CI](https://travis-ci.com/vandersozc/Bankslip).&nbsp;
+O build remoto do projeto pode ser visualizado com: [Travis CI](https://travis-ci.com/vandersozc/Bankslip).
 A análise de código pode ser visualizada com: [SonarCLoud](https://sonarcloud.io/dashboard?id=com.vandersoncamp%3Abankslip).
 
 ## EndPoints

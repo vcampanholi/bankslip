@@ -175,7 +175,7 @@ public class JpaCriteriaHelper<T extends EntityID> {
      * @param valueEnd Valor final <b>(necessita implementar {@link Comparable})</b>
      * @return objeto de consulta
      */
-    @SuppressWarnings({ "rawtypes" }) // TODO: tentar resolver este warning
+    @SuppressWarnings({ "rawtypes" })
     public JpaCriteriaHelper<T> where( String fieldName, ComparatorOperator comparator, Comparable valueIni, Comparable valueEnd ) {
         addTowhere(Arrays.asList(fieldName), comparator, valueIni, valueEnd, null);
         return this;
@@ -205,7 +205,7 @@ public class JpaCriteriaHelper<T extends EntityID> {
      * @param valueEnd Valor final <b>(necessita implementar {@link Comparable})</b>
      * @return objeto de consulta
      */
-    @SuppressWarnings({ "rawtypes" }) // TODO: tentar resolver este warning
+    @SuppressWarnings({ "rawtypes" })
     public JpaCriteriaHelper<T> and( String fieldName, ComparatorOperator comparator, Comparable valueIni, Comparable valueEnd ) {
         wheres.add( new WhereEntry(Arrays.asList(fieldName), comparator, valueIni, valueEnd, LogicalOperator.AND) );
         return this;
@@ -243,7 +243,7 @@ public class JpaCriteriaHelper<T extends EntityID> {
      * @param valueEnd Valor final <b>(necessita implementar {@link Comparable})</b>
      * @return objeto de consulta
      */
-    @SuppressWarnings({ "rawtypes" }) // TODO: tentar resolver este warning
+    @SuppressWarnings({ "rawtypes" })
     public JpaCriteriaHelper<T> or( String fieldName, ComparatorOperator comparator, Comparable valueIni, Comparable valueEnd ) {
         wheres.add( new WhereEntry(Arrays.asList(fieldName), comparator, valueIni, valueEnd, LogicalOperator.OR) );
         return this;
@@ -364,15 +364,15 @@ public class JpaCriteriaHelper<T extends EntityID> {
     }
 
     private void listFetch(Root<T> root) {
-        listFetches.stream().map((listFetch) -> root.getModel().getList(listFetch.attribute, listFetch.clazz)).forEachOrdered((listAttribute) -> {
-            root.fetch(listAttribute);
-        });
+        listFetches.stream().map((listFetch) -> root.getModel().getList(listFetch.attribute, listFetch.clazz)).forEachOrdered((listAttribute) ->
+            root.fetch(listAttribute)
+        );
     }
 
     private void directFetch(Root<T> root) {
-        directFetches.forEach((fetch) -> {
-            root.fetch(fetch);
-        });
+        directFetches.forEach((fetch) ->
+            root.fetch(fetch)
+        );
     }
 
     /**
@@ -486,7 +486,7 @@ public class JpaCriteriaHelper<T extends EntityID> {
         wheres.add( new WhereEntry(fieldNames, comparator, valueIni, valueEnd, logicalOperator) );
     }
 
-    @SuppressWarnings({ "unchecked", "rawtypes" }) // TODO: tentar retirar estes warnings
+    @SuppressWarnings({ "unchecked", "rawtypes" })
     private Predicate[] getPredicates( Root<T> root, List<WhereEntry> wheres ) {
         List<Predicate> predicates = new ArrayList<>();
         Predicate predMaster = null;
@@ -557,7 +557,6 @@ public class JpaCriteriaHelper<T extends EntityID> {
         return predicates.toArray(new Predicate[] {});
     }
 
-    // TODO: testar se estah fazendo JOIN corretamente para multiplos niveis
     private Path<?> getPath(List<String> fieldNames, Root<T> root) {
         javax.persistence.criteria.Path<?> entity = root;
 

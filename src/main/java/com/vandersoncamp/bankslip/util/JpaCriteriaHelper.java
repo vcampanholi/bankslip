@@ -318,7 +318,7 @@ public class JpaCriteriaHelper<T extends EntityID> {
         // ORDER BY
         if ( ! orders.isEmpty() ) {
             ArrayList<Order> jpaOrders = new ArrayList<>();
-            orders.forEach((orderField) -> {
+            orders.forEach(orderField -> {
                 if ( orderField.order.equals(OrderDirection.ASC) ) {
                     jpaOrders.add( criteriaBuilder.asc(getPath(orderField.fieldNames, root)));
                 } else {

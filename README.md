@@ -32,13 +32,8 @@ mvn clean test
 ```
 
 ## Build e Análise
-O build remoto do projeto pode ser visualizado com: [Travis CI](https://travis-ci.com/vandersozc/Bankslip).
+O build remoto do projeto pode ser visualizado com: [Travis CI](https://travis-ci.com/vandersozc/Bankslip).&nbsp;
 A análise de código pode ser visualizada com: [SonarCLoud](https://sonarcloud.io/dashboard?id=com.vandersoncamp%3Abankslip).
-
-Este projeto utiliza [JUnit 5](https://junit.org/junit5/) para testes unitários e de integração. Você pode executar os testes a qualquer momento. Tudo o que você precisa fazer é executar a linha de comando na pasta raiz do projeto:
-```
-mvn clean test
-```
 
 ## EndPoints
 

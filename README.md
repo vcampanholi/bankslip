@@ -8,9 +8,7 @@
 
 -------
 <p align="center">
-    <a href="#projeto">Projeto</a> &bull;
-    <a href="#instalacao">Instalação</a> &bull;
-    <a href="#tests">Testes e Cobertura</a> &bull;
+    <a href="#projeto">Projeto</a>
 </p>
 -------
 
@@ -21,12 +19,21 @@ Serviço de API Rest para geração de boletos. Pode ser consumido por um módul
 
 ## Instalação
 
-Este projeto utiliza [Maven](https://maven.apache.org/) para build e gerenciamento das dependências e foi construído utilizando a stack do [WildFly Swarm](http://wildfly-swarm.io/). Executar o build através da linha de comando na pasta raiz do projeto:
+Este projeto utiliza [Maven](https://maven.apache.org/) para build e gerenciamento das dependências e foi construído utilizando a stack do [WildFly Swarm](http://wildfly-swarm.io/). Efetuar o download do projeto e executar o build através da linha de comando na pasta raiz do projeto:
 ```
 mvn clean wildfly-swarm:run
 ```
 
 ## Testes e Cobertura
+
+Este projeto utiliza [JUnit 5](https://junit.org/junit5/) para testes unitários e de integração. Você pode executar os testes a qualquer momento. Tudo o que você precisa fazer é executar a linha de comando na pasta raiz do projeto:
+```
+mvn clean test
+```
+
+## Build e Análise
+O build remoto do projeto pode ser visualizado com: [Travis CI](https://travis-ci.com/vandersozc/Bankslip).
+A análise de código pode ser visualizada com: [SonarCLoud](https://sonarcloud.io/dashboard?id=com.vandersoncamp%3Abankslip).
 
 Este projeto utiliza [JUnit 5](https://junit.org/junit5/) para testes unitários e de integração. Você pode executar os testes a qualquer momento. Tudo o que você precisa fazer é executar a linha de comando na pasta raiz do projeto:
 ```
